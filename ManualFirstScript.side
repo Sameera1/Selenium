@@ -1,0 +1,56 @@
+{
+  "id": "7ca0fca6-52be-4dd5-8fe9-b34b1682b714",
+  "version": "2.0",
+  "name": "ManualFirstScript",
+  "url": "http://demo.guru99.com/test/newtours/",
+  "tests": [{
+    "id": "3c52cd16-c011-467e-a654-2e0e04343f65",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c0378004-59bd-4dbc-98c6-ca4888c92a91",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44ff8bdf-48eb-4230-bb3a-7d9654c1c5b4",
+      "comment": "",
+      "command": "//assertTitle",
+      "target": "<title>Welcome: Mercury Tours</title>",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b754a93-b61e-4c2c-a4cb-17bbe8958a60",
+      "comment": "",
+      "command": "type",
+      "target": "<input type=\"text\" name=\"userName\" size=\"10\">",
+      "targets": [],
+      "value": "InvalidUN"
+    }, {
+      "id": "fcd1e236-e04f-4a4c-8581-7aa7b125c35f",
+      "comment": "",
+      "command": "type",
+      "target": "<input type=\"password\" name=\"password\" size=\"10\">",
+      "targets": [],
+      "value": "InvalidPW"
+    }, {
+      "id": "0becb386-df2c-4cfc-bff9-e14ae0b77fed",
+      "comment": "",
+      "command": "click",
+      "target": "<input type=\"submit\" name=\"submit\" value=\"Submit\" style=\"background-color: #FACB00;border: 1px solid black;font-family:MS Sans Serif;font-size:15px;\">",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c8fd3f40-32df-46b3-acf8-e594d20dec38",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3c52cd16-c011-467e-a654-2e0e04343f65"]
+  }],
+  "urls": ["http://demo.guru99.com/test/newtours/"],
+  "plugins": []
+}

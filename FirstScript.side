@@ -1,0 +1,102 @@
+{
+  "id": "af2a1db5-d426-4189-82d6-a4b3366369a1",
+  "version": "2.0",
+  "name": "FirstScript",
+  "url": "http://demo.guru99.com",
+  "tests": [{
+    "id": "a9ed0c49-b44f-4cdf-a1dd-ec53c97f3cae",
+    "name": "Invalid_login",
+    "commands": [{
+      "id": "fca76079-7cb7-4913-b008-1a2ba8f67cd0",
+      "comment": "",
+      "command": "open",
+      "target": "/test/newtours/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b08a8f3-103b-48f3-94dc-a20ca8c11adc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e210ed7d-0fe5-4ba1-a1f1-fc884e104220",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Welcome: Mercury Tours",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f6d659b-1867-457d-b0ff-215f9197d3b0",
+      "comment": "",
+      "command": "click",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27414962-b3b1-4ab2-8f95-8f5112f71ef6",
+      "comment": "",
+      "command": "type",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "invalidUNN"
+    }, {
+      "id": "1c9e4696-b6fa-4765-ac35-ce6cf18a10da",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "711c737d-d969-4948-96c4-1d76f3492e9c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "invalidpwd"
+    }, {
+      "id": "37fae130-80ca-425a-b4ff-34dfa0890d44",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=div > input", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "72586b78-5c9e-4968-b797-1ca0ee8de722",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a9ed0c49-b44f-4cdf-a1dd-ec53c97f3cae"]
+  }],
+  "urls": ["http://demo.guru99.com/"],
+  "plugins": []
+}

@@ -1,0 +1,95 @@
+{
+  "id": "4a6377f3-d45c-4beb-b49a-271c79c51ef3",
+  "version": "2.0",
+  "name": "locators-ID",
+  "url": "http://demo.guru99.com/test/newtours/",
+  "tests": [{
+    "id": "e8edab7b-2650-4e15-b4f3-d2ca9af82ede",
+    "name": "Untitled",
+    "commands": [{
+      "id": "57a13791-0229-49d1-b35d-988f5df91fab",
+      "comment": "",
+      "command": "open",
+      "target": "/test/facebook.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdfa1250-5b93-41a6-90dc-62e0b34a4432",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4da181e-6cec-4339-9692-d1b16e7d5d68",
+    "name": "locatorsName",
+    "commands": [{
+      "id": "9d16dea0-08c0-47e6-82ff-dcdd3418d7f6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2310bc18-a970-42eb-b2d4-d90c361e1231",
+      "comment": "",
+      "command": "click",
+      "target": "name=userName",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "949c0186-ddc6-4f40-b5fd-599d549f869a",
+      "comment": "",
+      "command": "type",
+      "target": "name=userName",
+      "targets": [],
+      "value": "tutorial"
+    }, {
+      "id": "129e43b5-3c28-4398-a147-3a4f93e4a868",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02307ac-d50c-4ca5-9dcd-9b00dcb603eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [],
+      "value": "tutorial"
+    }, {
+      "id": "bae2d20a-6810-4564-a5b0-a5a0277c94bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d8bf8ea-b459-4e02-a296-29558c7cd954",
+      "comment": "",
+      "command": "click",
+      "target": "link=Flights",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d20428a0-07f5-41a9-b90e-873d062a3aae",
+      "comment": "",
+      "command": "click",
+      "target": "name=tripType value=roundtrip",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3519a7a9-720a-4177-b624-7f69d36b67d7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8edab7b-2650-4e15-b4f3-d2ca9af82ede"]
+  }],
+  "urls": ["http://demo.guru99.com/", "http://demo.guru99.com/test/newtours/"],
+  "plugins": []
+}
